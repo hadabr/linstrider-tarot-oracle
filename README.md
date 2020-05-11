@@ -1,4 +1,4 @@
-## Tarot Application
+## Tarot Application - Team Project 
 
 ## Description 
 
@@ -25,7 +25,7 @@ As a User...
  Learn about each card layouts.
  Sort cards into the layouts face down and click them to turn them over.
  I can get self reflection questions based on my card results.
- I am pleased by the user experience. The app is both attractive and intuitive to use.
+ We are pleased by the user experience. The app is both attractive and intuitive to use.
 
 ### Additional Specifications:
  - Create a library of Tarot cards and write a function that randomly presents them.
@@ -39,3 +39,9 @@ As a User...
 
 
 ### TODOS
+
+### TEAM
+
+Erika
+Irena 
+Alex
