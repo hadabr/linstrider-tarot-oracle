@@ -40,7 +40,21 @@ As a User...
 - Card flipping/sorting animations
 
 
-### TODOS
+### IDEAS
+==base modules==
+- casino / EA loot like system as main basis
+- card collection 
+- in direct advertising of cards' creator
+- tarot fate story telling
+  
+==extra modules==
+- account database
+- multiplayer
+- chat
+
+
+### TODO
+
 
 ### TEAM
 
