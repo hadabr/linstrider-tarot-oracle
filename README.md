@@ -28,5 +28,14 @@ As a User...
  I am pleased by the user experience. The app is both attractive and intuitive to use.
 
 ### Additional Specifications:
+ - Create a library of Tarot cards and write a function that randomly presents them.
+ - If you use any frameworks or code libraries cite them.
+ - Use design & UX principals to make the app clear and easy to use.
+
+### Stretch Goals
+
+- Choose 1 of (at least) 3 card layouts.
+- Card flipping/sorting animations
+
 
 ### TODOS
