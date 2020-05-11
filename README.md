@@ -2,11 +2,11 @@
 
 ### Digital Career Institute - Berlin (DCI)
 
-### TEAM
+#### Our TEAM
 
-- Erika
+- Erika DelaRosa
 - Irena Popova
-- Alex
+- Alex Dovghii
 
 ## Description 
 
