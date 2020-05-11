@@ -60,7 +60,8 @@ As a User...
 ### Installation
 
 ### Usage
-
+The user has the following options.
+- 
 How our app can be used?
 
 ## Credits
