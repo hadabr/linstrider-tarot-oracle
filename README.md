@@ -25,6 +25,7 @@ Reinforce back end and front end development skills.
 build skills in JavaScript
 deploy the app 
 Learn about user experience
+node, AJAX requests & databases.
 
 ### User Stories & Specifications 
 As a User...
@@ -46,7 +47,7 @@ As a User...
 - Card flipping/sorting animations
 
 
-### IDEAS
+### IDEAS 💡🔔
 ==base modules==
 - casino / EA loot like system as main basis
 - card collection 
@@ -59,7 +60,7 @@ As a User...
 - chat
 
 
-### TODOS
+### TODOS 
 
 - 
 
