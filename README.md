@@ -1,6 +1,6 @@
 ## Tarot Application - Team Project 
 
-### Digital Career Institute (DCI)
+### Digital Career Institute - Berlin (DCI)
 
 ## Description 
 
