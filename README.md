@@ -53,7 +53,22 @@ As a User...
 - chat
 
 
-### TODO
+### TODOS
+
+- 
+
+### Installation
+
+### Usage
+
+How our app can be used?
+
+## Credits
+
+- All images and tarot meanings were taken from: 
+
+
+### Live site:
 
 
 ### TEAM
