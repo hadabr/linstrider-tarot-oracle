@@ -20,7 +20,7 @@ Figma
 
 #### Learning Goals ⭐️ 🤓 
 
-Work with design prototyping and UX
+Work with design prototyping and UX  
 Explore teamwork and project management on IT
 
 ### User Stories & Specifications 
