@@ -4,9 +4,9 @@
 
 #### Our TEAM  🚀
 
-- 🤓 Erika DelaRosa 
-- 🤓 Irena Popova 
-- 🤓 Alex Dovghii 
+- [Erika DelaRosa](https://github.com/ErikaDelaRosa)
+- [Irena Popova](https://github.com/irenapopova)
+- [Alex Dovghii](https://github.com/hadabr)
 
 ## Description 🚀
 
@@ -26,11 +26,11 @@ Explore teamwork and project management on IT
 ### User Stories & Specifications 
 As an User...
 
- I can access the app on the web.
- Learn about each card layouts.
- Sort cards into the layouts face down and click them to turn them over.
- I can get self reflection questions based on my card results.
- We are pleased by the user experience. The app is both attractive and intuitive to use.
+ Simulate visit to a Tarot oracle:  
+ - Tarot deck
+ - Random cards - random combinations
+ - Cards tells your fate
+ - Website is both attractive and intuitive to use.
 
 ### Additional Specifications:
  - Create a library of well-designed Tarot cards
