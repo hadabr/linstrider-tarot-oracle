@@ -2,7 +2,7 @@
 for small teams and open source projects
 ## Project and time management
 ### Task management
-```Tool:``` [*Trello, quire, Asana or Jira etc.*]  
+```Tool:``` **quire**  
 ```Pattern:``` **Kanban-based pattern**  
 - main workflow is split into ```ideas```, ```tasks```, ```issues``` and ```blocked``` boards by default; also, ```common``` list
   
