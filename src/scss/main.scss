@@ -21,8 +21,4 @@
 // 7. Themes
 @import "themes/default";
 
-//font theme for the page (vintage style);
-@font-face {
-    font-family: 'SarsaparillaNF';
-    src: url('../scss/font/SarsaparillaNF.ttf');
-};
+@import "./style.scss";
