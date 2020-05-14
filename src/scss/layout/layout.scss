@@ -3,7 +3,7 @@
 body {
     background-color: rgb(194, 171, 156);
     margin:2rem;
-    font-family: 'SarsaparillaNF';
+    //font-family:'RiotSquadNF';
    // background-image: url();
    // background-repeat: no-repeat;
    //background-size: 110rem 61rem;
@@ -11,10 +11,11 @@ body {
 //main title of the page
 #mainTitle {
     border: 3px black solid;
+    font-family:'SarsaparillaNF';
     margin: 25px;
     margin-bottom: 5px;
     padding:20px;
-    font-size: 40px;
+    font-size: 60px;
     text-align: center;
     align-content: center;
     color:white;
@@ -23,10 +24,12 @@ body {
 #subTitle{
     text-align: center;
     align-content: center;
+    font-family:'RiotSquadNF';
 }
 //content of the subtitle 
 #interpretation-text {
     border: 3px black solid;
+    font-family:'RiotSquadNF';
     margin:20px;
     margin-top:5px;
     padding:20px;

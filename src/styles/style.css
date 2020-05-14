@@ -12,6 +12,10 @@
   font-family: "SarsaparillaNF";
   src: url("../scss/font/SarsaparillaNF.ttf");
 }
+@font-face {
+  font-family: "RiotSquadNF";
+  src: url("../../scss/font/RiotSquadNF.ttf");
+}
 @media (max-width: 360px) {
   h1 {
     color: green;
@@ -61,15 +65,15 @@
 body {
   background-color: #c2ab9c;
   margin: 2rem;
-  font-family: "SarsaparillaNF";
 }
 
 #mainTitle {
   border: 3px black solid;
+  font-family: "SarsaparillaNF";
   margin: 25px;
   margin-bottom: 5px;
   padding: 20px;
-  font-size: 40px;
+  font-size: 60px;
   text-align: center;
   align-content: center;
   color: white;
@@ -78,10 +82,12 @@ body {
 #subTitle {
   text-align: center;
   align-content: center;
+  font-family: "RiotSquadNF";
 }
 
 #interpretation-text {
   border: 3px black solid;
+  font-family: "RiotSquadNF";
   margin: 20px;
   margin-top: 5px;
   padding: 20px;
