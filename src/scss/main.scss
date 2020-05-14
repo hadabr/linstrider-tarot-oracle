@@ -21,4 +21,5 @@
 // 7. Themes
 @import "themes/default";
 
-@import "./style.scss";
+@import "../styles/style.css";
+@import "../scss/layout.scss";

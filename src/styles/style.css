@@ -1,9 +1,13 @@
+<<<<<<< HEAD
 /* Error: Can't find stylesheet to import.
  *    ,
  * 24 | @import "./style.scss";
  *    |         ^^^^^^^^^^^^^^
  *    '
  *   src/scss/main.scss 24:9  root stylesheet */
+=======
+
+>>>>>>> 49a221c959d053bd78a46ff25d8681a69aef3a97
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
