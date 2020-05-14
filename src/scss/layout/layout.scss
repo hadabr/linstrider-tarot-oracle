@@ -2,6 +2,8 @@
 
 body {
     background-color: rgb(194, 171, 156);
+    margin:2rem;
+    font-family: 'SarsaparillaNF';
    // background-image: url();
    // background-repeat: no-repeat;
    //background-size: 110rem 61rem;
@@ -70,4 +72,25 @@ footer{
     //align-content: space-around;
     justify-content:center;
     align-items:flex-end;
+}
+
+//container extras to develop in the future
+#extras {
+    border:3px black solid;
+    margin:20px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    text-decoration: none;
+    align-content: center;
+}
+//editing the links 
+a:hover{
+    color: #FFDC5B;
+}
+a:visited{
+    color:#8D55FF;
+}
+a:active{
+    text-decoration: none;
 }
