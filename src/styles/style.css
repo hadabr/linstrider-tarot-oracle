@@ -16,6 +16,10 @@
   font-family: "RiotSquadNF";
   src: url("../../scss/font/RiotSquadNF.ttf");
 }
+@font-face {
+  font-family: "CATHohenzollern.ttf";
+  src: url("../../scss/font/CAT Hohenzollern.ttf");
+}
 @media (max-width: 360px) {
   h1 {
     color: green;
@@ -68,7 +72,6 @@ body {
 }
 
 #mainTitle {
-  border: 3px black solid;
   font-family: "SarsaparillaNF";
   margin: 25px;
   margin-bottom: 5px;
@@ -82,11 +85,10 @@ body {
 #subTitle {
   text-align: center;
   align-content: center;
-  font-family: "RiotSquadNF";
+  font-family: "SarsaparillaNF";
 }
 
 #interpretation-text {
-  border: 3px black solid;
   font-family: "RiotSquadNF";
   margin: 20px;
   margin-top: 5px;
@@ -112,6 +114,22 @@ body {
   height: 26rem;
 }
 
+#cardTitle {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px;
+  font-size: 20px;
+}
+
+#title1, #title2, #title3 {
+  border: 2px black solid;
+  width: 18rem;
+  height: 4rem;
+}
+
 #tarotDescription {
   display: flex;
   flex-direction: row;
@@ -119,6 +137,7 @@ body {
   justify-content: space-around;
   align-items: center;
   margin: 30px;
+  font-size: 14px;
 }
 
 #description1, #description2, #description3 {
@@ -128,7 +147,6 @@ body {
 }
 
 footer {
-  border: 3px black solid;
   margin: 20px;
   text-align: center;
   justify-content: center;
@@ -136,7 +154,6 @@ footer {
 }
 
 #extras {
-  border: 3px black solid;
   margin: 20px;
   display: flex;
   flex-direction: row;
