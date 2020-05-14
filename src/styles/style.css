@@ -1,13 +1,130 @@
-
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 2 \2502  @import \"../NMTD_presets/narrow\";\a   \2502          ^^^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   src/scss/layout/_narrow.scss 2:9    @import\a   src/scss/layout/_assemble.scss 3:9  @import\a   src/scss/main.scss 3:9              root stylesheet";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+:root {
+  font-size: 16px;
+}
+
+@font-face {
+  font-family: "SarsaparillaNF";
+  src: url("../scss/font/SarsaparillaNF.ttf");
+}
+@media (max-width: 360px) {
+  h1 {
+    color: green;
+  }
+}
+@media (min-width: 375px) {
+  h1 {
+    color: blue;
+  }
+}
+@media (min-width: 411px) {
+  h1 {
+    color: yellow;
+  }
+}
+@media (min-width: 414px) {
+  h1 {
+    color: black;
+  }
+}
+@media (min-width: 768px) {
+  h1 {
+    color: purple;
+  }
+}
+@media (min-width: 1024px) {
+  h1 {
+    color: red;
+  }
+}
+@media (min-width: 1025px) {
+  h1 {
+    color: sandybrown;
+  }
+}
+@media (min-width: 1440px) {
+  h1 {
+    color: slateblue;
+  }
+}
+@media (min-width: 2560px) {
+  h1 {
+    color: orangered;
+  }
+}
+
+body {
+  background-color: #c2ab9c;
+}
+
+#mainTitle {
+  border: 3px black solid;
+  margin: 25px;
+  margin-bottom: 5px;
+  padding: 20px;
+  font-size: 40px;
+  text-align: center;
+  align-content: center;
+  color: white;
+}
+
+#subTitle {
+  text-align: center;
+  align-content: center;
+}
+
+#interpretation-text {
+  border: 3px black solid;
+  margin: 20px;
+  margin-top: 5px;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  text-align: justify;
+}
+
+#tarotCards {
+  margin: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#card1, #card2, #card3 {
+  border: 2px black solid;
+  width: 18rem;
+  height: 26rem;
+}
+
+#tarotDescription {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px;
+}
+
+#description1, #description2, #description3 {
+  border: 2px black solid;
+  width: 18rem;
+  height: 8rem;
+}
+
+footer {
+  border: 3px black solid;
+  margin: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+/*# sourceMappingURL=style.css.map */

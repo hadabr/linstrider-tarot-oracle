@@ -1,0 +1,73 @@
+//here is where we will style the main page.
+
+body {
+    background-color: rgb(194, 171, 156);
+   // background-image: url();
+   // background-repeat: no-repeat;
+   //background-size: 110rem 61rem;
+}
+//main title of the page
+#mainTitle {
+    border: 3px black solid;
+    margin: 25px;
+    margin-bottom: 5px;
+    padding:20px;
+    font-size: 40px;
+    text-align: center;
+    align-content: center;
+    color:white;
+}
+//subtitle of the page
+#subTitle{
+    text-align: center;
+    align-content: center;
+}
+//content of the subtitle 
+#interpretation-text {
+    border: 3px black solid;
+    margin:20px;
+    margin-top:5px;
+    padding:20px;
+    font-size: 20px;
+    text-align: center;
+    //display: flex;
+    color:white;
+    text-align: justify; 
+}
+//card container 
+#tarotCards {
+    margin:30px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    justify-content: space-around;
+    align-items: center; //baseline
+}
+#card1, #card2, #card3 {
+    border:2px black solid;
+    width: 18rem;
+    height: 26rem;
+}
+//card description container
+#tarotDescription {
+    display: flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    justify-content: space-around;
+    align-items: center; //baseline
+    margin:30px;
+}
+#description1, #description2, #description3 {
+    border:2px black solid;
+    width: 18rem;
+    height: 8rem;
+}
+// footer
+footer{
+    border:3px black solid;
+    margin: 20px;
+    text-align: center;
+    //align-content: space-around;
+    justify-content:center;
+    align-items:flex-end;
+}
