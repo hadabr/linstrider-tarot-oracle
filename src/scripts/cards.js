@@ -470,5 +470,5 @@ const cards = [
     },
 ];
 
-let data = JSON.stringify(cards);
-export {data};
+//let data = JSON.stringify(cards);
+//export {data};
