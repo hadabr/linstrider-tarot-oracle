@@ -1,11 +1,4 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 2 | @import "../NMTD_presets/narrow";
- *   |         ^^^^^^^^^^^^^^^^^^^^^^^^
- *   '
- *   src/scss/layout/_narrow.scss 2:9    @import
- *   src/scss/layout/_assemble.scss 3:9  @import
- *   src/scss/main.scss 3:9              root stylesheet */
+
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
