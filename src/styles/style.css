@@ -1,65 +1,17 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+/* Error: Can't find stylesheet to import.
+ *    ,
+ * 24 | @import "./style.scss";
+ *    |         ^^^^^^^^^^^^^^
+ *    '
+ *   src/scss/main.scss 24:9  root stylesheet */
 
-:root {
-  font-size: 16px;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Can't find stylesheet to import.\a    \2577 \a 24 \2502  @import \"./style.scss\";\d\a    \2502          ^^^^^^^^^^^^^^\a    \2575 \a   src/scss/main.scss 24:9  root stylesheet";
 }
-
-@media (max-width: 360px) {
-  h1 {
-    color: green;
-  }
-}
-@media (min-width: 375px) {
-  h1 {
-    color: blue;
-  }
-}
-@media (min-width: 411px) {
-  h1 {
-    color: yellow;
-  }
-}
-@media (min-width: 414px) {
-  h1 {
-    color: black;
-  }
-}
-@media (min-width: 768px) {
-  h1 {
-    color: purple;
-  }
-}
-@media (min-width: 1024px) {
-  h1 {
-    color: red;
-  }
-}
-@media (min-width: 1025px) {
-  h1 {
-    color: sandybrown;
-  }
-}
-@media (min-width: 1440px) {
-  h1 {
-    color: slateblue;
-  }
-}
-@media (min-width: 2560px) {
-  h1 {
-    color: orangered;
-  }
-}
-
-@font-face {
-  font-family: "SarsaparillaNF";
-  src: url("../scss/font/SarsaparillaNF.ttf");
-}
-
-<<<<<<< HEAD
-/*# sourceMappingURL=style.css.map */
-=======
->>>>>>> refs/remotes/origin/erika
