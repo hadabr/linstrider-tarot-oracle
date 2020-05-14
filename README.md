@@ -107,7 +107,8 @@ set calendar to fecth tasks
 [⇑ back to Contents](#Сontents)
 ### Architecture  
 ```Pattern:``` **Modular architecture** 
-
+SASS modules 7-1 pattern: [Guidelines](https://sass-guidelin.es/#the-7-1-pattern)  
+![image](https://github.com/hadabr/assets/blob/master/working-enviroment-setup/Screenshot_113.png?raw=true) 
 ### QA  
 ### JS
 ### Appearance  
