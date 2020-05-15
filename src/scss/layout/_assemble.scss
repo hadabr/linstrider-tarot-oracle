@@ -1,0 +1,17 @@
+// path to built-ins
+// refers to corresponding mixins, functions etc.: - 
+// "devs/..."
+
+// just remember @import "#{$path}/filename" doesn't work
+// temp workaround for current filename
+$filename: assemble;
+
+// -------- __@imports__ ---------
+@import "devs/flex", "devs/grid", "devs/bootstrap", "devs/media_queries";
+// set your layouts according used breakpoints pattern:
+@import "./narrow"
+, "./mobile"
+, "./tablet"
+, "./desktop"
+;
+// -------------------------------

@@ -12,17 +12,25 @@
 
 // -------------------------------
 
-
-// ---------- :root --------------
-body {
-
-}
-// -------------------------------  
 // -------- common rules ---------
 * {
-  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition: all ease .4s;
+}
+*:hover {
+  transition: all ease .4s;
+}
+li {
+  list-style-type:none;
 }
 // -------------------------------
+// ---------- :root --------------
+body {
+  height: 100vh;
+}
+// -------------------------------    
 // ---------- header -------------
 header {
 

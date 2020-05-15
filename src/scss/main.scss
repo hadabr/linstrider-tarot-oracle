@@ -1,22 +1,38 @@
 @charset "UTF-8";
 
-// 1. Configuration
-@import "abstracts/variables", "abstracts/functions", "abstracts/mixins";
+// 0. Vendors
+@import "./vendors/normalize";
 
-// 2. Vendors
-@import "vendors/normalize";
+// 1. Base
+@import "./base/common", "./base/fonts", "./base/typography";
 
-// 3. Base
-@import "base/base", "base/fonts", "base/typography";
+// 2. Layout
+@import "./layout/assemble";
 
-// 4. Layout
-@import "layout/header", "layout/footer";
+// 3. Themes
+@import "./themes/default", "./themes/night_mode";
+@import "./themes/default_colors";
 
-// 5. Components
-@import "components/button";
+// 4. UI
+// _header_
+@import "./ui/header_navigation";
+// _sidebars_
+@import "./ui/sidebar_left", "./ui/sidebar_right";
+// _main_
+@import "./ui/content_navigation";
+// _footer_
+@import "./ui/pagination";
 
-// 6. Page
-@import "pages/home";
+// 5. Content
+@import "./content/articles", "./content/posts", "./content/comments", "./content/built_in_ads";
+@import "./content/about";
+@import "./content/gallery";
 
-// 7. Themes
-@import "themes/default";
+// 6. Media
+@import "./media/video", "./media/audio", "./media/maps";
+
+// 7. Forms and inputs
+@import "./forms_and_inputs/drag_n_drop", "./forms_and_inputs/comments_field", "./forms_and_inputs/messages", "./forms_and_inputs/post_field"; 
+
+// 8. Ads
+ @import "./ads/main_ads";

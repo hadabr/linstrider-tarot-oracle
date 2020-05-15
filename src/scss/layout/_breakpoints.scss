@@ -1,0 +1,27 @@
+// path to built-ins
+// refers to corresponding mixins, functions etc.: - 
+// "devs/..."
+
+// breakpoints are context-based
+// it could be any custom breakpoints pattern - i.e. "iphoneXS", "ipad", "wide" etc.
+// the order - from tiny to wide
+// change $breakpoints-map keys to start new pattern
+// change its values to run responsive design
+// every entry is set for {max-width} rule; {min-width} will be set automatically; "desktop" has no -max
+
+// used breakpoints pattern: NMTD
+// narrow mobile tablet desktop
+
+$breakpoints-map: (
+  "narrow": 320px
+, "mobile": 540px
+, "tablet": 768px
+, "desktop": ""
+);
+// retina:
+$device-pixel-ratio: 1.5;
+$min-resolution: 192dpi;
+
+
+
+
