@@ -1,0 +1,63 @@
+// path to built-ins
+// refers to corresponding mixins, functions etc.: - 
+// "devs/..."
+
+// used breakpoints pattern: NMTD
+// narrow mobile tablet desktop
+
+
+// --------- _@imports_ ----------
+
+// -------------------------------
+// ------- _shared values_ -------
+
+// -------------------------------
+
+
+    // ---------- :root --------------
+    body {
+
+    }
+
+    // -------------------------------    
+    // ---------- header -------------
+    header {}
+
+    // -------------------------------
+    // ------- sidebar left ----------
+    aside.left {}
+
+    // -------------------------------
+    // ------ sidebar right ----------
+    aside.right {}
+
+    // -------------------------------
+    // ------- main > header ---------
+    main>.header {}
+
+    // -------------------------------
+    main {
+
+    }
+    // ------- main > content -----------
+    main>.content {}
+.loader {
+    width: 6em;
+    margin-bottom: 6em;
+    animation:disappear 2s;
+    opacity:0;
+}
+@keyframes disappear
+{
+0%   {opacity:1;}
+100%   {opacity:0;}  
+}
+    // -------------------------------
+    // ------- main > footer ---------
+    main>.footer {}
+
+    // -------------------------------
+    // ---------- footer -------------
+    footer {}
+
+    // -------------------------------

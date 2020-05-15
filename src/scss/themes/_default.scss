@@ -16,8 +16,8 @@
 
 // ---------- :root --------------
 body {
-
-}
+    background-image: url(../../assets/main/bg-template.png);
+  }
 // -------------------------------  
 // -------- common rules ---------
 * {
@@ -39,18 +39,23 @@ aside.right {
 
 }
 // -------------------------------
-// ------- main > header ---------
-main.header {
+main {
 
 }
+// ------- main > header ---------
+main > .header {
+
+}
+
 // -------------------------------
 // ------- main > content -----------
-main.content {
+main > .content {
 
 }
+
 // -------------------------------
 // ------- main > footer ---------
-main.footer {
+main > .footer {
 
 }
 // -------------------------------
