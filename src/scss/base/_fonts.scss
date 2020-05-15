@@ -37,6 +37,15 @@ body {
   font-family:'CATHohenzollern.ttf';
   src: url('../../scss/font/CAT\ Hohenzollern.ttf');
 }
+a:hover{
+  color: #FFDC5B;
+}
+a:visited{
+  color:#8D55FF;
+}
+a:active{
+  text-decoration: none;
+}
 // -------------------------------
 // ---------- header -------------
 header {
