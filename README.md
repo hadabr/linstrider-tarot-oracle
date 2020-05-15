@@ -59,7 +59,3 @@ As an User...
 Cards design:
 
 Typography:
-
-
-
-test
