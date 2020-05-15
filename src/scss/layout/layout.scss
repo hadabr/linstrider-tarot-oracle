@@ -1,9 +1,9 @@
 //here is where we will style the main page.
 
 body {
-    background-color: rgb(194, 171, 156);
+    background-color: rgb(102, 185, 233);
     //background-image: url();
-    margin:2rem;
+    margin:2.5rem;
     //font-family:'RiotSquadNF';
    // background-image: url();
    // background-repeat: no-repeat;
@@ -25,7 +25,8 @@ body {
 #subTitle{
     text-align: center;
     align-content: center;
-    font-family:'SarsaparillaNF';
+    font-family:'RiotSquadNF';
+    font-size: 42px;
 }
 //content of the subtitle 
 #interpretation-text {
@@ -39,6 +40,7 @@ body {
     //display: flex;
     color:white;
     text-align: justify; 
+   // border-radius: 25px;
 }
 //card container 
 #tarotCards {
@@ -63,11 +65,21 @@ body {
     align-items: center; //baseline
     margin:30px;
     font-size:20px;
+
 }
 #title1, #title2, #title3{
     border:2px black solid;
+    border-radius: 6%;
     width: 18rem;
     height: 4rem;
+    font-size: 24px;
+    font-family:'SarsaparillaNF';
+    //background-image: url(../../img/labels-4963742_640.png);
+   // background-size: 18rem 8rem;
+    color: white;
+    text-align: center;
+    vertical-align: text-bottom;
+    //display:flex;
 }
 //card description container
 #tarotDescription {
@@ -77,12 +89,15 @@ body {
     justify-content: space-around;
     align-items: center; //baseline
     margin:30px;
-    font-size:14px;
+    font-size:17px;
+    //border-radius: 6%;
 }
 #description1, #description2, #description3 {
     border:2px black solid;
     width: 18rem;
     height: 8rem;
+    border-radius: 6%;
+    
 }
 // footer
 footer{
@@ -92,6 +107,7 @@ footer{
     //align-content: space-around;
     justify-content:center;
     align-items:flex-end;
+    font-family:'RiotSquadNF';
 }
 
 //container extras to develop in the future
@@ -103,6 +119,7 @@ footer{
     justify-content: space-around;
     text-decoration: none;
     align-content: center;
+    font-family:'RiotSquadNF';
 }
 //editing the links 
 a:hover{

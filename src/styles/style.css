@@ -67,8 +67,8 @@
 }
 
 body {
-  background-color: #c2ab9c;
-  margin: 2rem;
+  background-color: #66b9e9;
+  margin: 2.5rem;
 }
 
 #mainTitle {
@@ -85,7 +85,8 @@ body {
 #subTitle {
   text-align: center;
   align-content: center;
-  font-family: "SarsaparillaNF";
+  font-family: "RiotSquadNF";
+  font-size: 42px;
 }
 
 #interpretation-text {
@@ -126,8 +127,14 @@ body {
 
 #title1, #title2, #title3 {
   border: 2px black solid;
+  border-radius: 6%;
   width: 18rem;
   height: 4rem;
+  font-size: 24px;
+  font-family: "SarsaparillaNF";
+  color: white;
+  text-align: center;
+  vertical-align: text-bottom;
 }
 
 #tarotDescription {
@@ -137,13 +144,14 @@ body {
   justify-content: space-around;
   align-items: center;
   margin: 30px;
-  font-size: 14px;
+  font-size: 17px;
 }
 
 #description1, #description2, #description3 {
   border: 2px black solid;
   width: 18rem;
   height: 8rem;
+  border-radius: 6%;
 }
 
 footer {
@@ -151,6 +159,7 @@ footer {
   text-align: center;
   justify-content: center;
   align-items: flex-end;
+  font-family: "RiotSquadNF";
 }
 
 #extras {
@@ -160,6 +169,7 @@ footer {
   justify-content: space-around;
   text-decoration: none;
   align-content: center;
+  font-family: "RiotSquadNF";
 }
 
 a:hover {
