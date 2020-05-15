@@ -16,49 +16,56 @@ $filename: desktop;
 
 // -------------------------------
 $mediaQ: only screen #{$filename};
+
 @include media($mediaQ) {
 
     // ---------- :root --------------
     body {
-        $grid-template-columns: side 1 main 12.42;
-        $grid-template-rows: head 1 main 2;
+        $grid-template-columns: side 1 main 4 side 1;
+        $grid-template-rows: head 1 main 4 foot 1;
         @include grid($grid-template-columns, $grid-template-rows);
     }
+
     // -------------------------------    
     // ---------- header -------------
-    header {
+    header {}
 
-    }
     // -------------------------------
     // ------- sidebar left ----------
-    aside.left {
+    aside.left {}
 
-    }
     // -------------------------------
     // ------ sidebar right ----------
-    aside.right {
+    aside.right {}
 
-    }
     // -------------------------------
     // ------- main > header ---------
-    main.header {
+    main>.header {}
 
-    }
     // -------------------------------
+    main {
+        $grid-column: main 1;
+        $grid-row: main 1;
+        @include grid-item($grid-column, $grid-row);
+        $flex-items: center center;
+        @include flex($flex-items);
+    }
+
     // ------- main > content -----------
-    main.content {
+    main>.content {}
+
+    .preloader {
 
     }
+
     // -------------------------------
     // ------- main > footer ---------
-    main.footer {
+    main>.footer {}
 
-    }
     // -------------------------------
     // ---------- footer -------------
-    footer {
+    footer {}
 
-    }
     // -------------------------------
 
 }
