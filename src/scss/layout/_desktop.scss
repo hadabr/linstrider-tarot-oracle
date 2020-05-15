@@ -21,15 +21,20 @@ $mediaQ: only screen #{$filename};
 
     // ---------- :root --------------
     body {
-        $grid-template-columns: side 1 main 4 side 1;
-        $grid-template-rows: head 1 main 4 foot 1;
+        $grid-template-columns: side 1 main 2 side 1;
+        $grid-template-rows: head 1 main 2 foot 1;
         @include grid($grid-template-columns, $grid-template-rows);
     }
 
     // -------------------------------    
     // ---------- header -------------
-    header {}
-
+    header {
+        $grid-column: main 1;
+        $grid-row: head 1;
+        @include grid-item($grid-column, $grid-row);
+        $flex-items: center top row;
+        @include flex($flex-items);
+    }
     // -------------------------------
     // ------- sidebar left ----------
     aside.left {}
@@ -39,10 +44,6 @@ $mediaQ: only screen #{$filename};
     aside.right {}
 
     // -------------------------------
-    // ------- main > header ---------
-    main>.header {}
-
-    // -------------------------------
     main {
         $grid-column: main 1;
         $grid-row: main 1;
@@ -50,13 +51,13 @@ $mediaQ: only screen #{$filename};
         $flex-items: center center;
         @include flex($flex-items);
     }
+    // ------- main > header ---------
+    main>.header {}
 
+    // -------------------------------
     // ------- main > content -----------
     main>.content {}
 
-    .preloader {
-
-    }
 
     // -------------------------------
     // ------- main > footer ---------

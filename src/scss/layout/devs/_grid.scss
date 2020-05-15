@@ -30,7 +30,7 @@
             $end-gridLine: true;
             $tempStorageReturn: $tempStorageReturn + " " + $key + "fr ";
         } @else {
-            // counte same name lines
+            // count same name lines
             @if ($key == side) {
                 $sideCounter: $sideCounter + 1;
                 $counter: "-" +  $sideCounter;               
@@ -64,11 +64,14 @@
     }
     @return string.unquote($tempStorageReturn);
 }
-@mixin grid($cols: false, $rows: false) {
+
+@mixin grid($cols, $rows) {
     display: grid;
     grid-template-columns: grid($cols);
     grid-template-rows: grid($rows);
 }
+
+// ------------------------
 @function grid-item($str) {
     $tempStorageReturn: "";
     @each $key in $str {

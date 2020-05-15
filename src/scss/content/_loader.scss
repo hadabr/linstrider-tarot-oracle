@@ -18,7 +18,26 @@
     body {
 
     }
-
+    .loader.container {
+        $grid-column: full;
+        $grid-row: full;
+        @include grid-item($grid-column, $grid-row);
+        $flex-items: center center;
+        @include flex($flex-items);
+        display: var(--no-loader, flex);
+        background-image: url(../../assets/main/bg-template.png);
+        animation:disappear 3s;
+        opacity:0;
+    }
+    .loader.item {
+        width: 6em;
+        margin-bottom: 6em;
+    }
+    @keyframes disappear
+{
+0%   {opacity:1;}
+100%   {opacity:0;}  
+}
     // -------------------------------    
     // ---------- header -------------
     header {}
@@ -41,17 +60,6 @@
     }
     // ------- main > content -----------
     main>.content {}
-.loader {
-    width: 6em;
-    margin-bottom: 6em;
-    animation:disappear 2s;
-    opacity:0;
-}
-@keyframes disappear
-{
-0%   {opacity:1;}
-100%   {opacity:0;}  
-}
     // -------------------------------
     // ------- main > footer ---------
     main>.footer {}

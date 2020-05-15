@@ -21,45 +21,52 @@ $mediaQ: only screen #{$filename};
 
     // ---------- :root --------------
     body {
-        $grid-template-columns: side 1 main 12.42;
-        $grid-template-rows: head 1 main 2;
+        $grid-template-columns: side 1 main 2 side 1;
+        $grid-template-rows: head 1 main 2 foot 1;
         @include grid($grid-template-columns, $grid-template-rows);
     }
+
     // -------------------------------    
     // ---------- header -------------
     header {
-
+        $grid-column: main 1;
+        $grid-row: head 1;
+        @include grid-item($grid-column, $grid-row);
+        $flex-items: center top row;
+        @include flex($flex-items);
     }
     // -------------------------------
     // ------- sidebar left ----------
-    aside.left {
+    aside.left {}
 
-    }
     // -------------------------------
     // ------ sidebar right ----------
-    aside.right {
+    aside.right {}
 
-    }
     // -------------------------------
-    // ------- main > header ---------
-    main.header {
-
+    main {
+        $grid-column: main 1;
+        $grid-row: main 1;
+        @include grid-item($grid-column, $grid-row);
+        $flex-items: center center;
+        @include flex($flex-items);
     }
+    // ------- main > header ---------
+    main>.header {}
+
     // -------------------------------
     // ------- main > content -----------
-    main.content {
+    main>.content {}
 
-    }
+
     // -------------------------------
     // ------- main > footer ---------
-    main.footer {
+    main>.footer {}
 
-    }
     // -------------------------------
     // ---------- footer -------------
-    footer {
+    footer {}
 
-    }
     // -------------------------------
 
 }
