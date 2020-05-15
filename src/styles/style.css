@@ -132,6 +132,8 @@ body {
   height: 4rem;
   font-size: 24px;
   font-family: "SarsaparillaNF";
+  background-image: url(../../img/gold-frame.jpg);
+  background-size: 18rem 4rem;
   color: white;
   text-align: center;
   vertical-align: text-bottom;
