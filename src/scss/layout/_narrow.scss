@@ -1,0 +1,65 @@
+// path to built-ins
+// refers to corresponding mixins, functions etc.: - 
+// "devs/..."
+
+// just remember @import "#{$path}/filename" doesn't work
+// temp workaround for current filename
+$filename: narrow;
+
+// used breakpoints pattern: NMTD
+// narrow mobile tablet desktop
+
+// --------- _@imports_ ----------
+
+// -------------------------------
+// ----- _shared sass values_ ----
+
+// -------------------------------
+$mediaQ: only screen #{$filename};
+
+@include media($mediaQ) {
+
+    // ---------- :root --------------
+    body {
+        $grid-template-columns: side 1 main 12.42;
+        $grid-template-rows: head 1 main 2;
+        @include grid($grid-template-columns, $grid-template-rows);
+    }
+    // -------------------------------    
+    // ---------- header -------------
+    header {
+
+    }
+    // -------------------------------
+    // ------- sidebar left ----------
+    aside.left {
+
+    }
+    // -------------------------------
+    // ------ sidebar right ----------
+    aside.right {
+
+    }
+    // -------------------------------
+    // ------- main > header ---------
+    main.header {
+
+    }
+    // -------------------------------
+    // ------- main > content -----------
+    main.content {
+
+    }
+    // -------------------------------
+    // ------- main > footer ---------
+    main.footer {
+
+    }
+    // -------------------------------
+    // ---------- footer -------------
+    footer {
+
+    }
+    // -------------------------------
+
+}

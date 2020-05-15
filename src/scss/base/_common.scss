@@ -12,32 +12,25 @@
 
 // -------------------------------
 
-
-// ---------- :root --------------
-:root {
-  font-size: 16px;
-}
-body {
-
-}
-// -------------------------------  
 // -------- common rules ---------
 * {
-  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition: all ease .4s;
 }
-@font-face {
-  font-family: 'SarsaparillaNF';
-  src: url('../scss/font/SarsaparillaNF.ttf');
+*:hover {
+  transition: all ease .4s;
 }
-@font-face {
-  font-family: 'RiotSquadNF';
-  src: url('../../scss/font/RiotSquadNF.ttf');
-}
-@font-face {
-  font-family:'CATHohenzollern.ttf';
-  src: url('../../scss/font/CAT\ Hohenzollern.ttf');
+li {
+  list-style-type:none;
 }
 // -------------------------------
+// ---------- :root --------------
+body {
+  height: 100vh;
+}
+// -------------------------------    
 // ---------- header -------------
 header {
 
@@ -73,4 +66,3 @@ footer {
 
 }
 // -------------------------------
-

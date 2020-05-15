@@ -45,7 +45,7 @@ TO-DOs &nbsp;⇒&nbsp; In process &nbsp;⇒&nbsp; Completed &nbsp;*or*&nbsp; Pos
 
 - tasks are moved between boards and inside a board, changing their status  
 
-<img src="https://github.com/hadabr/assets/blob/master/working-enviroment-setup/sams1.png?raw=true" width="420"/><img src="https://github.com/hadabr/assets/blob/master/working-enviroment-setup/sams2.png?raw=true" width="420"/>
+<img src="https://github.com/hadabr/assets/blob/master/working-enviroment-setup/sams2.png?raw=true" width="420"/><img src="https://github.com/hadabr/assets/blob/master/working-enviroment-setup/sams1.png?raw=true" width="420"/>
 
 - after appeared in **To-DOs** can be freely taken by who wants to do them - at **flat organizational structure** or will be assigned by a supervisor - at **hierarchical** one
 
@@ -105,12 +105,9 @@ set calendar to fecth tasks
 
 ## Development and testing
 [⇑ back to Contents](#Сontents)
-### App architecture  
-```Pattern:``` **Modular architecture**  
+### Architecture  
+```Pattern:``` **Modular architecture** 
 
-SASS modules 7-1 pattern: [Guidelines](https://sass-guidelin.es/#the-7-1-pattern)  
-
-![image](https://github.com/hadabr/assets/blob/master/working-enviroment-setup/Screenshot_113.png?raw=true) 
 ### QA  
 ### JS
 ### Appearance  
