@@ -3,36 +3,42 @@ const cards = [
     {
         id: "01",
         name:"Fool",
+       // image: "the_fool.png",
         upright: "spontaneity, extravagance, beginnings",
         reversed: "carelessness, negligence, vanity",
     },
     {
         id: "02",
         name:"Magician",
+        //image: "the_magician.png",
         upright: "skill, power, action",
         reversed: "manipulation, disgrace",
     },
     {
         id:"03",
         name:"High Priest",
+        // image:""
         upright: "wisdom, intuition, mystery",
         reversed: "passion, conceit",
     },
     {
         id:"04",
         name:"Empress",
+        // image:"the_empress.png",
         upright: "initiative, femininity, fruitfulness",
         reversed :"dependence, doubt, ignorance",
     },
     {
         id:"05",
         name:"Emperor",
+        // image:"the_emperor.png",
         upright: "power, protection, accomplishment",
         reversed: "domination, rigidity",
     },
     {
         id: "06",
         name:"Hierophant",
+        // image:""
         upright: "conformity, kindness",
         reversed: "servitude, weakness",
     },

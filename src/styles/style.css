@@ -68,7 +68,7 @@
 
 body {
   background-color: #66b9e9;
-  margin: 2.5rem;
+  margin: 3rem;
 }
 
 #mainTitle {
@@ -76,7 +76,7 @@ body {
   margin: 25px;
   margin-bottom: 5px;
   padding: 20px;
-  font-size: 60px;
+  font-size: 80px;
   text-align: center;
   align-content: center;
   color: white;
@@ -110,9 +110,13 @@ body {
 }
 
 #card1, #card2, #card3 {
-  border: 2px black solid;
+  border: 2px #0f28b4 solid;
   width: 18rem;
-  height: 26rem;
+  height: 30rem;
+  border-radius: 6%;
+  background-image: url(../../img/tarotCards78/reverseCard.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #cardTitle {
@@ -126,17 +130,16 @@ body {
 }
 
 #title1, #title2, #title3 {
-  border: 2px black solid;
   border-radius: 6%;
   width: 18rem;
-  height: 4rem;
+  height: 4.5rem;
   font-size: 24px;
   font-family: "SarsaparillaNF";
-  background-image: url(../../img/gold-frame.jpg);
-  background-size: 18rem 4rem;
+  background-image: url(../../img/kindpng_796372.png);
+  background-size: 18rem 4.4rem;
   color: white;
   text-align: center;
-  vertical-align: text-bottom;
+  vertical-align: middle;
 }
 
 #tarotDescription {
@@ -166,12 +169,13 @@ footer {
 
 #extras {
   margin: 20px;
+  font-size: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   text-decoration: none;
   align-content: center;
-  font-family: "RiotSquadNF";
+  font-family: "SarsaparillaNF";
 }
 
 a:hover {
