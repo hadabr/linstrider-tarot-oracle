@@ -1,4 +1,5 @@
-# Easy frontend framework setup
+# Easy busy frontend setup
+Checklist + best practices
 ### Сontents:
 ##### Project management
 [Task management](#task-management)   
@@ -30,8 +31,8 @@ __
 [before start](#before-start) 
 
 ## Project management
-[⇑ back to Contents](#Сontents)
 ### Task management
+[⇑ back to Contents](#Сontents)
 ```Tool:``` [*Trello, quire, Asana or Jira etc.*]  
 ```Pattern:``` **Kanban-based pattern**  
 - main workflow is split into ```ideas```, ```tasks```, ```issues``` and ```blocked``` boards by default; also, ```common``` list 
@@ -85,7 +86,8 @@ non-tagged tasks - you can consider it like "general"
 - good task has only 2-3 tags  
 - at the end set the same **filters**, based on your tags, for every board/list you have  
 
-#### Connection and synchronization   
+#### Connection and synchronization 
+[⇑ back to Contents](#Сontents)  
 🔗 Task management is efficient only when everything in an enviroment is set for continuous self- and external ```forecast```, ```control```, ```analyse```  
 Steps to reach it:
 - simplify communication in a team
@@ -100,35 +102,46 @@ set calendar to fecth tasks
 ![image](https://github.com/hadabr/assets/blob/master/working-enviroment-setup/Screenshot_112.png?raw=true) 
 
 #### Time management
+[⇑ back to Contents](#Сontents)
 ```Tool:``` **Toggl**  
 ```Pattern:``` **Pomodoro** 
 
 ## Development and testing
-[⇑ back to Contents](#Сontents)
-### Architecture  
+### App architecture
+[⇑ back to Contents](#Сontents) 
 ```Pattern:``` **Modular architecture** 
 
 ### QA  
-### JS
-### Appearance  
-### APIs
-### Database 
-## Design and prototyping
+[⇑ back to Contents](#Сontents)  
+### JS  
 [⇑ back to Contents](#Сontents)
-### Branding
-### UI/UX
-### Assets and media files
+### Appearance   
+[⇑ back to Contents](#Сontents) 
+### APIs  
+[⇑ back to Contents](#Сontents)
+### Database  
+[⇑ back to Contents](#Сontents)
+## Design and prototyping  
+### Branding  
+[⇑ back to Contents](#Сontents)
+### UI/UX  
+[⇑ back to Contents](#Сontents)
+### Assets and media files  
+[⇑ back to Contents](#Сontents)
 
 ## Deployment
+### Version control management  
 [⇑ back to Contents](#Сontents) 
-### Version control management
-### Computing resources and storage 
+### Computing resources and storage   
+[⇑ back to Contents](#Сontents) 
 
 ## Intelectual resources  
-[⇑ back to Contents](#Сontents)  
 ### License  
-### Credits 
+[⇑ back to Contents](#Сontents)  
+### Credits  
+[⇑ back to Contents](#Сontents)  
 ### Disclaymer   
+[⇑ back to Contents](#Сontents)  
    
 
 ## Marketing
