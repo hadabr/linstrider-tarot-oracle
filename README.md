@@ -41,29 +41,26 @@ __
 ```Tool:``` [*Trello, quire, Asana or Jira etc.*]  
 ```Pattern:``` **Kanban-based pattern**  
 ```Guidelines:```   
-In general, it's **a conveyor with a drum** omitting conveyor's boredom and preventing frustrations thanks clearness and simplicity  
-contagious forecast-control-analyse, splitting tasks in the smallest possible chunks, still providing the whole picture what is happening - there is a lot details, but main aspects could be assembled in **visualization**, **interaction**, **partition** and **synchronization**  
-so, here we go    
+In general, it's **a conveyor with a drum** omitting conveyor's boredom and preventing frustrations thanks clearness - splitting tasks in the smallest possible chunks, but providing at least simplified whole picture what is happening - there is a lot details, but main aspects are **visualization**, **interaction**, **partition** and **synchronization**  
+   
 - main workflow is split into ```ideas```, ```tasks```, ```issues``` and ```blocked``` boards by default; also, ```common``` list  
  
 ![image](https://github.com/hadabr/assets/blob/master/working-enviroment-setup/Screenshot_102.png?raw=true)
   
-- boards follow columns template: 
-TO-DOs &nbsp;⇒&nbsp; In process &nbsp;⇒&nbsp; Completed &nbsp;*or*&nbsp; Postponed   
+- every task moves straightforward from ```ideas``` to ```tasks``` or ```blocked``` and: 
+TO-DOs &nbsp;⇒&nbsp; In process &nbsp;⇒&nbsp; Completed &nbsp;*or*&nbsp; Postponed inside a board, changing its status  
 ![image](https://github.com/hadabr/assets/blob/master/working-enviroment-setup/sams.png?raw=true)  
-> As here is a simpler approach than Scrum - we have a *non-iterative* one-dimensional straightforward flow. Anyway, tasks still can be _postponed_ or *blocked* for a time and reopen later.  
-
-- tasks are moved between boards and inside a board, changing their status  
+> As it is a simpler approach than Scrum - we have a *less iterative* flow. Anyway, tasks still can be _postponed_ or *blocked* for a time and reopen later.  
 
 <img src="https://github.com/hadabr/assets/blob/master/working-enviroment-setup/sams2.png?raw=true" width="420"/><img src="https://github.com/hadabr/assets/blob/master/working-enviroment-setup/sams1.png?raw=true" width="420"/>
 
-- after appeared in **To-DOs** can be freely taken by who wants to do them - at **flat organizational structure** or will be assigned by a supervisor - at **hierarchical** one
+- tasks in **To-DOs** should be freely taken by who wants - at **flat organizational structure** or will be assigned by a supervisor - at **hierarchical** one
 
 __  
 *be sure, that **blocked** will not appear on your Calendar; it can be set as non-tracking board or i.e. board with only *completed* column, which will not appear in the calendar
 
 - sublists  
- in case of a complexed macrotask with a lot of subtasks and details, notes or repetitive processes - **when to unfold a task is more important than its terms**, better to use **sublists**
+ in case of a complexed macrotask with a lot of subtasks and details, or for repetitive processes - **when to unfold a task is more important than its terms**, better to use **sublists**
 
 ![image](https://github.com/hadabr/assets/blob/master/working-enviroment-setup/Screenshot_105.png?raw=true)  
 
@@ -74,23 +71,19 @@ __
 > 2) allows to apply filters and make a search through tasks simpler  
 > it is suggested to use so few tags how possible    
 - (optional) **categories** tags:  
-if you don't have on task manager categories, you can set it through tags ```PM```, ```development```, ```design```, ```deployment``` etc.; by default it can be sections from this setup
+i.e. ```PM```, ```development```, ```design```, ```deployment``` etc.; i.e. it's really helpful to separate design and coding  
 - **priority** tags:  
 in the next order:  
 
 non-tagged tasks - you can consider it like "general"  
-```main``` - highest, tasks on which depend a lot of other  
+```core``` - highest, task on which depends main processes, can be used, when no dependency for tasks is set  
+```main``` - high, tasks on which depend a lot of other  
 ```other``` - vice versa to *main*; you can consider them as "in project, but something additional"  
 ```extra``` - lowest, *postponed* or non-cored tasks, some features can be added later  
 - **special** tags: 
 
 ```urgent``` - of course, you can set directly priority; plus, there is easy to observe overdue tasks, but sometimes it just needs more attention   
 ```discussion``` - something on a task needs live text/talk conversation  
-- **deadlines**:  
-
-| routine       | weekly/monthly | overall  |
-| ------------- |---------------| -----  |
-| repetitive, "never-ending" tasks     | deadline by a date and hours | no fixed deadline    |
 
 - good task has only 2-3 tags  
 
@@ -120,7 +113,12 @@ and calendars are set for a supervisor to control **time workload** and **reward
 ![image](https://github.com/hadabr/assets/blob/master/working-enviroment-setup/Screenshot_112.png?raw=true) 
 
 #### Time management
-[⇑ back to Contents](#Сontents)   
+[⇑ back to Contents](#Сontents)  
+```Concept:``` **Two deadlines** 
+
+| routine       | weekly/monthly | overall  |
+| ------------- |---------------| -----  |
+| repetitive, "never-ending" tasks     | deadline by a date and hours | no fixed deadline    |
 ```Tool:``` time tracker, i.e. **Toggl**  
 ```Pattern:``` **Pomodoro** 
 
