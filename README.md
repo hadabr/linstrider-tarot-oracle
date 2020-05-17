@@ -118,7 +118,8 @@ and calendars are set for a supervisor to control **time workload** and **reward
 
 | routine       | weekly/monthly | overall  |
 | ------------- |---------------| -----  |
-| repetitive, "never-ending" tasks     | deadline by a date and hours | no fixed deadline    |
+| repetitive, "never-ending" tasks     | deadline by a date and hours | no fixed deadline    |  
+
 ```Tool:``` time tracker, i.e. **Toggl**  
 ```Pattern:``` **Pomodoro** 
 
