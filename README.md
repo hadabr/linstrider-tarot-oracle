@@ -36,7 +36,7 @@ __
 ```Tool:``` [*Trello, quire, Asana or Jira etc.*]  
 ```Pattern:``` **Kanban-based pattern**  
 ```Guidelines:```   
-It's **a conveyor with a drum** omitting conveyor's boredom and preventing frustrations through clearness what, how and when is doing, simplicity to observe and participate in it through **visualization**, **interaction**, **partition** and **synchronization**  
+It's **a conveyor with a drum** omitting conveyor's boredom and preventing frustrations through clearness about forecast, control, analyse what, how and when is doing, simplicity to observe and participate with **visualization**, **interaction**, **partition** and **synchronization**  
 - main workflow is split into ```ideas```, ```tasks```, ```issues``` and ```blocked``` boards by default; also, ```common``` list  
  
 ![image](https://github.com/hadabr/assets/blob/master/working-enviroment-setup/Screenshot_102.png?raw=true)
@@ -61,7 +61,7 @@ __
 ![image](https://github.com/hadabr/assets/blob/master/working-enviroment-setup/Screenshot_105.png?raw=true)  
 
 ```Concept:``` **Context-based tags and filters**
-> as known, **Kanban** used system of colorful priority cards to control the flow; 
+> original **Kanban** used system of colorful priority cards to control the flow; 
 > for the same approach we are using **colorful tags**  
 > 1) to give more information about a task from first sight  
 > 2) allows to apply filters and make a search through tasks simpler  
@@ -90,18 +90,19 @@ non-tagged tasks - you can consider it like "general"
 
 #### Connection and synchronization 
 [⇑ back to Contents](#Сontents)     
-🔗 The efficient enviroment is set for **continuous user-friendly** self- and external ```forecast```, ```control```, ```analyse```  
-Steps to reach it:
-- simplified communication in a team
+- simplified communication in a team  
 talk+inbox+chat all-in-one tools exceed other  
 for **code sharing** we have Git  
-- reduce communications frequency - use **DRY** here  
-it can be achieved through clear dynamic, version controlled **documentation**, **screen sharing** instead of chatting and half-free **streams for coding** (i.e. by debugging)
+- reduced communications frequency - DRY is to use here  
+dynamic, version controlled **documentation**
+**screen sharing** instead of chatting and half-free **streams for coding** (i.e. by debugging)  
+etc. - there is no concrete setup, it's rather an approach  
 ...
 - app integrations and cross-links 
 ![image](https://github.com/hadabr/assets/blob/master/working-enviroment-setup/Screenshot_111.png?raw=true)  
-link Version control software with tasks - every commit can have a link (i.e. comment) to coresponeded task and vice versa  
-set calendar to fecth tasks
+**link** version control software with task management - every commit should have a link (i.e. comment) to corresponded task and vice versa  
+**calendar** is set to fetch tasks for a contributor  
+and calendars are set for a supervisor to control **time workload** and **rewards**  
 - use system of notifications about ```commits```, ```tasks```, ```tests```, ```news```  
 ![image](https://github.com/hadabr/assets/blob/master/working-enviroment-setup/Screenshot_112.png?raw=true) 
 
