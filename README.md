@@ -131,7 +131,7 @@ and calendars are set for a supervisor to control **time workload** and **reward
 ### JS  
 [⇑ back to Contents](#Сontents)  
 ```Concept:``` **Event performance**  
-- Control event bubbling and event target precision  
+- Control event bubbling    
 - Debouncing over Throttling over nothing  
 
 ### Appearance   
