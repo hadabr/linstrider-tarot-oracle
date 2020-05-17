@@ -122,8 +122,9 @@ there should be only
 | ------------- |---------------| -----  | -----  |
 | repetitive, "never-ending" tasks     | daily or incapsulation tasks |tasks with start and end date | no fixed deadline    |  
 
-**two deadlines** should exceed any other approach
+**two deadlines** should exceed any other approach  
 together with TO-DOs &nbsp;⇒&nbsp; In process &nbsp;⇒&nbsp; Completed is the most powerful thing to control, when a task comes in an action (**1st deadline**) and when it should be finished (2nd one)  
+
 ```Pattern```: **Pomodoro**  
 ```Tool```: time tracker, i.e. **Toggl**  
 
