@@ -102,7 +102,7 @@ all-in-one (talk+inbox+chat) tools exceed other
 clearly **divide** and don't mix up enviroments for code, conversations, task management (i.e., it's up to a team to use a strict or cozy PM style, but for both better no chats on github, no commits in messenger) etc. 
 for **code sharing** we have Git  
 - reduced communications frequency - DRY is to use here  
-start with dynamic, version controlled **documentation**
+start with dynamic, version controlled **documentation** exceed everything  
 **screen sharing** exceed chatting  
 applied half-free **coding streams for** (i.e. by debugging)  
 etc. - fot other there is no concrete setup, it's rather an approach  
