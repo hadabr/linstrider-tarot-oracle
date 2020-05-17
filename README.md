@@ -1,5 +1,7 @@
 # Easy busy frontend setup
-Checklist. Best practices
+### Checklist. Best practices
+> before start: check the date of third part advises, solutions you apply   
+> can be, they are obsolete  
 ### Сontents:
 ##### Project management
 [Task management](#task-management)   
@@ -144,6 +146,7 @@ together with TO-DOs &nbsp;⇒&nbsp; In process &nbsp;⇒&nbsp; Completed is the
 ```Concept```: **Events and animations performance**  
 - Control event bubbling and layout reflow  
 [About](https://gist.github.com/paulirish/5d52fb081b3570c81e3a)    
+https://www.smashingmagazine.com/2019/04/mutationobserver-api-guide/  
 - Debouncing over ```requestAnimationFrame()``` over Throttling over nothing  
 https://www.html5rocks.com/en/tutorials/speed/animations/
 
