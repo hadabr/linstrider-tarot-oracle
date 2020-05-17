@@ -34,8 +34,10 @@ __
 ### Task management
 [⇑ back to Contents](#Сontents)
 ```Tool:``` [*Trello, quire, Asana or Jira etc.*]  
-```Pattern:``` **Kanban-based pattern**  
-- main workflow is split into ```ideas```, ```tasks```, ```issues``` and ```blocked``` boards by default; also, ```common``` list 
+```Pattern:``` **Kanban-based pattern**
+```Guidelines:```  
+It's similar to **a conveyor with a drum** omitting conveyor's boredom and preventing frustrations through clearness what, how and when is doing, simplicity to observe and participate in it through **visualization**, **partition** and **synchronization**  
+- main workflow is split into ```ideas```, ```tasks```, ```issues``` and ```blocked``` boards by default; also, ```common``` list  
  
 ![image](https://github.com/hadabr/assets/blob/master/working-enviroment-setup/Screenshot_102.png?raw=true)
   
@@ -88,13 +90,15 @@ non-tagged tasks - you can consider it like "general"
 
 #### Connection and synchronization 
 [⇑ back to Contents](#Сontents)  
-🔗 Task management is efficient only when everything in an enviroment is set for continuous self- and external ```forecast```, ```control```, ```analyse```  
+🔗 The efficient enviroment is set for **continuous user-friendly** self- and external ```forecast```, ```control```, ```analyse```  
 Steps to reach it:
-- simplify communication in a team
-preffer all-in-one tools (talk+inbox+chat), reduce its ammount  
-use DRY - reduce ammount of discussion on general through providing a documentation, pinned messages,  streams 
+- simplified communication in a team
+talk+inbox+chat all-in-one tools exceed other  
+for **code sharing** we have Git  
+- reduce communications frequency - use **DRY** here  
+it can be achieved through clear dynamic, version controlled **documentation**, **screen sharing** instead of chatting and half-free **streams for coding** (i.e. by debugging)
 ...
-- set integrations and cross-links 
+- app integrations and cross-links 
 ![image](https://github.com/hadabr/assets/blob/master/working-enviroment-setup/Screenshot_111.png?raw=true)  
 link Version control software with tasks - every commit can have a link (i.e. comment) to coresponeded task and vice versa  
 set calendar to fecth tasks
@@ -103,20 +107,31 @@ set calendar to fecth tasks
 
 #### Time management
 [⇑ back to Contents](#Сontents)
-```Tool:``` **Toggl**  
+```Tool:``` time tracker, i.e. **Toggl**  
 ```Pattern:``` **Pomodoro** 
 
 ## Development and testing
 ### App architecture
 [⇑ back to Contents](#Сontents) 
-```Pattern:``` **Modular architecture** 
+```Pattern:``` **Modular all-to-one architecture** 
 
 ### QA  
 [⇑ back to Contents](#Сontents)  
 ### JS  
 [⇑ back to Contents](#Сontents)
+```Concept:``` **Event performance**
+- Control event bubbling and event target precision
+- Debouncing over Throttling over nothing
+
+
 ### Appearance   
-[⇑ back to Contents](#Сontents) 
+[⇑ back to Contents](#Сontents)
+```Concept:``` **Grid of grids**
+```Concept:``` **BEM**
+```Concept:``` **Responsive grid**
+```Concept:``` **Context-based grid**
+```Concept:``` **Flex-to-flex**
+
 ### APIs  
 [⇑ back to Contents](#Сontents)
 ### Database  
