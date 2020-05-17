@@ -117,6 +117,7 @@ and calendars are set for a supervisor to control **time workload** and **reward
 [⇑ back to Contents](#Сontents)  
 ```Concept```: **Two deadlines** 
 there should be only 
+
 | routine       | one deadline | two deadlines | overall  |
 | ------------- |---------------| -----  |
 | repetitive, "never-ending" tasks     | daily or incapsulation tasks |tasks with start and end date | no fixed deadline    |  
@@ -138,7 +139,7 @@ together with TO-DOs &nbsp;⇒&nbsp; In process &nbsp;⇒&nbsp; Completed is the
 [⇑ back to Contents](#Сontents)  
 ### JS  
 [⇑ back to Contents](#Сontents)  
-```Concept```: **Event performance**  
+```Concept```: **Events and animations performance**  
 - Control event bubbling and layout reflow  
 [About](https://gist.github.com/paulirish/5d52fb081b3570c81e3a)    
 - Debouncing over ```requestAnimationFrame()``` over Throttling over nothing  
