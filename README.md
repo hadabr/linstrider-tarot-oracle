@@ -129,7 +129,7 @@ and calendars are set for a supervisor to control **time workload** and **reward
 [⇑ back to Contents](#Сontents)  
 ```Pattern:``` **Modular all-to-one architecture**  
 
-![image](https://github.com/hadabr/assets/blob/master/working-enviroment-setup/Screenshot_113.png?raw=true) 
+![image](https://github.com/hadabr/assets/blob/master/working-enviroment-setup/Screenshot_113.png?raw=true)  
 ```Concept:``` **Split-to-branches** 
 
 ### QA  
