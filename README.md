@@ -34,8 +34,8 @@ __
 ### Task management
 [⇑ back to Contents](#Сontents)
 ```Tool:``` [*Trello, quire, Asana or Jira etc.*]  
-```Pattern:``` **Kanban-based pattern**
-```Guidelines:```  
+```Pattern:``` **Kanban-based pattern**  
+```Guidelines:```   
 It's similar to **a conveyor with a drum** omitting conveyor's boredom and preventing frustrations through clearness what, how and when is doing, simplicity to observe and participate in it through **visualization**, **interaction**, **partition** and **synchronization**  
 - main workflow is split into ```ideas```, ```tasks```, ```issues``` and ```blocked``` boards by default; also, ```common``` list  
  
