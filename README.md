@@ -15,15 +15,20 @@ Checklist. Best practices
 ##### Design and prototyping
 [Branding](#branding)  
 [UI/UX](#UI/UX)  
-[Assets and media files](#Appearance)  
-##### Deployment
-[Version control management](#version-control-management)  
-[Computing resources and storage](#computing-resources-and-storage)   
-...
+[Assets and media files](#Appearance) 
+##### Security  
+[Team-pritocols](#team-protocols)  
+[Client-side](#client-side)  
+[Server-side](#server-side)   
+... 
 ##### Intelectual resources
 [License](#license)  
 [Credits](#credits)  
 [Disclaymer](#disclaymer)    
+...
+##### Deployment
+[Version control management](#version-control-management)  
+[Computing resources and storage](#computing-resources-and-storage)   
 ...
 ##### Marketing
 ...  
@@ -91,12 +96,14 @@ non-tagged tasks - you can consider it like "general"
 #### Connection and synchronization 
 [⇑ back to Contents](#Сontents)     
 - simplified communication in a team  
-talk+inbox+chat all-in-one tools exceed other  
+all-in-one (talk+inbox+chat) tools exceed other 
+clearly **divide** and don't mix up enviroments for code, conversations, task management (i.e., it's up to a team to use a strict or cozy PM style, but for both better no chats on github, no commits in messenger) etc. 
 for **code sharing** we have Git  
 - reduced communications frequency - DRY is to use here  
-dynamic, version controlled **documentation**
-**screen sharing** instead of chatting and half-free **streams for coding** (i.e. by debugging)  
-etc. - there is no concrete setup, it's rather an approach  
+start with dynamic, version controlled **documentation**
+**screen sharing** exceed chatting  
+applied half-free **coding streams for** (i.e. by debugging)  
+etc. - fot other there is no concrete setup, it's rather an approach  
 ...
 - app integrations and cross-links 
 ![image](https://github.com/hadabr/assets/blob/master/working-enviroment-setup/Screenshot_111.png?raw=true)  
