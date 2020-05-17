@@ -41,7 +41,7 @@ __
 ```Tool```: *Trello, quire, Asana or Jira etc.*
 ```Pattern```: **Kanban-based pattern**  
 ```Guidelines```:   
-[**Main principles**](#Сontents)    
+[**Main principles**](#Connection-and-synchronization)      
 In general, it's **a conveyor with a drum** omitting conveyor's boredom and preventing frustrations thanks clearness - splitting tasks in the smallest possible chunks, but providing at least simplified whole picture what is happening - there is a lot details, but main aspects are **visualization**, **interaction**, **partition** and **synchronization**  
    
 - main workflow is split into ```ideas```, ```tasks```, ```issues``` and ```blocked``` boards by default; also, ```common``` list  
