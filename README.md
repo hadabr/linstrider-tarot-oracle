@@ -119,7 +119,7 @@ and calendars are set for a supervisor to control **time workload** and **reward
 there should be only 
 
 | routine       | one deadline | two deadlines | overall  |
-| ------------- |---------------| -----  |
+| ------------- |---------------| -----  | -----  |
 | repetitive, "never-ending" tasks     | daily or incapsulation tasks |tasks with start and end date | no fixed deadline    |  
 
 **two deadlines** should exceed any other approach
