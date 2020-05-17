@@ -1,5 +1,5 @@
 # Easy busy frontend setup
-Checklist + best practices
+Checklist. Best practices
 ### Сontents:
 ##### Project management
 [Task management](#task-management)   
@@ -119,18 +119,19 @@ set calendar to fecth tasks
 [⇑ back to Contents](#Сontents)  
 ### JS  
 [⇑ back to Contents](#Сontents)
-```Concept:``` **Event performance**
-- Control event bubbling and event target precision
-- Debouncing over Throttling over nothing
-
+```Concept:``` **Event performance**  
+- Control event bubbling and event target precision  
+- Debouncing over Throttling over nothing  
 
 ### Appearance   
 [⇑ back to Contents](#Сontents)
-```Concept:``` **Grid of grids**
-```Concept:``` **BEM**
-```Concept:``` **Responsive grid**
-```Concept:``` **Context-based grid**
-```Concept:``` **Flex-to-flex**
+```Concept:``` **SCSS over CSS**  
+```Pattern:``` **SCSS all-to-one**  
+```Concept:``` **Grid of grids**  
+```Concept:``` **BEM**  
+```Concept:``` **Responsive grid**  
+```Concept:``` **Context-based grid**  
+```Concept:``` **Flex-to-flex**  
 
 ### APIs  
 [⇑ back to Contents](#Сontents)
