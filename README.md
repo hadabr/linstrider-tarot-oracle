@@ -38,9 +38,10 @@ __
 ## Project management
 ### Task management
 [⇑ back to Contents](#Сontents)  
-```Tool:``` [*Trello, quire, Asana or Jira etc.*]  
-```Pattern:``` **Kanban-based pattern**  
-```Guidelines:```   
+```Tool```: *Trello, quire, Asana or Jira etc.*
+```Pattern```: **Kanban-based pattern**  
+```Guidelines```:   
+[**Main principles**](#Сontents)    
 In general, it's **a conveyor with a drum** omitting conveyor's boredom and preventing frustrations thanks clearness - splitting tasks in the smallest possible chunks, but providing at least simplified whole picture what is happening - there is a lot details, but main aspects are **visualization**, **interaction**, **partition** and **synchronization**  
    
 - main workflow is split into ```ideas```, ```tasks```, ```issues``` and ```blocked``` boards by default; also, ```common``` list  
@@ -64,7 +65,7 @@ __
 
 ![image](https://github.com/hadabr/assets/blob/master/working-enviroment-setup/Screenshot_105.png?raw=true)  
 
-```Concept:``` **Context-based tags and filters**
+```Concept```: **Context-based tags and filters**
 > original **Kanban** used system of colorful priority cards to control the flow; 
 > for the same approach we are using **colorful tags**  
 > 1) to give more information about a task from first sight  
@@ -98,8 +99,8 @@ all-in-one (talk+inbox+chat) tools exceed other
 clearly **divide** and don't mix up enviroments for code, conversations, task management (i.e., it's up to a team to use a strict or cozy PM style, but for both better no chats on github, no commits in messenger) etc. 
 for **code sharing** we have Git  
 - **reduced** communications' **length** and **frequency** - DRY is to use here  
-start with dynamic, version controlled **documentation** exceed everything  
-**screen sharing** exceed chatting  
+dynamic, version controlled **documentation** over everything  
+**screen sharing** over chatting  
 applied half-free **coding streams for** (i.e. by debugging)  
 etc. - fot other there is no concrete setup, it's rather an approach  
 ...
@@ -114,40 +115,43 @@ and calendars are set for a supervisor to control **time workload** and **reward
 
 #### Time management
 [⇑ back to Contents](#Сontents)  
-```Concept:``` **Two deadlines** 
-
-| routine       | weekly/monthly | overall  |
+```Concept```: **Two deadlines** 
+there should be only 
+| routine       | one deadline | two deadlines | overall  |
 | ------------- |---------------| -----  |
-| repetitive, "never-ending" tasks     | deadline by a date and hours | no fixed deadline    |  
+| repetitive, "never-ending" tasks     | daily or incapsulation tasks |tasks with start and end date | no fixed deadline    |  
 
-```Tool:``` time tracker, i.e. **Toggl**  
-```Pattern:``` **Pomodoro** 
+**two deadlines** should exceed any other approach
+together with TO-DOs &nbsp;⇒&nbsp; In process &nbsp;⇒&nbsp; Completed is the most powerful thing to control, when a task comes in an action (**1st deadline**) and when it should be finished (2nd one)  
+```Pattern```: **Pomodoro**  
+```Tool```: time tracker, i.e. **Toggl**  
 
 ## Development and testing
 ### App architecture
 [⇑ back to Contents](#Сontents)  
-```Pattern:``` **Modular all-to-one architecture**  
+```Pattern```: **Modular all-to-one architecture**  
 
 ![image](https://github.com/hadabr/assets/blob/master/working-enviroment-setup/Screenshot_113.png?raw=true)  
-```Concept:``` **Split-to-branches** 
+```Concept```: **Split-to-branches** 
 
 ### QA  
 [⇑ back to Contents](#Сontents)  
 ### JS  
 [⇑ back to Contents](#Сontents)  
-```Concept:``` **Event performance**  
-- Control event bubbling    
-- Debouncing over Throttling over nothing  
+```Concept```: **Event performance**  
+- Control event bubbling and layout reflow  
+[About](https://gist.github.com/paulirish/5d52fb081b3570c81e3a)    
+- Debouncing over ```requestAnimationFrame()``` over Throttling over nothing  
 
 ### Appearance   
 [⇑ back to Contents](#Сontents)  
-```Concept:``` **SCSS over CSS**  
-```Pattern:``` **SCSS all-to-one modules**  
-```Concept:``` **Grid of grids**  
-```Concept:``` **BEM**  
-```Concept:``` **Responsive grid**  
-```Concept:``` **Context-based grid**  
-```Concept:``` **Flex-to-flex**  
+```Concept```: **SCSS over CSS**  
+```Pattern```: **SCSS all-to-one modules**  
+```Concept```: **Grid of grids**  
+```Concept```: **BEM**  
+```Concept```: **Responsive grid**  
+```Concept```: **Context-based grid**  
+```Concept```: **Flex-to-flex**  
 
 ### APIs  
 [⇑ back to Contents](#Сontents)  
