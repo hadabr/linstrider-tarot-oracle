@@ -86,14 +86,17 @@ non-tagged tasks - you can consider it like "general"
 
 ```urgent``` - of course, you can set directly priority; plus, there is easy to observe overdue tasks, but sometimes it just needs more attention   
 ```discussion``` - something on a task needs live text/talk conversation  
-- not tags, but **deadlines**:  
+- **deadlines**:  
 
 | routine       | weekly/monthly | overall  |
 | ------------- |---------------| -----  |
 | repetitive, "never-ending" tasks     | deadline by a date and hours | no fixed deadline    |
 
 - good task has only 2-3 tags  
-- at the end set the same **filters**, based on your tags, for every board/list you have  
+
+![image](https://github.com/hadabr/assets/blob/master/working-enviroment-setup/Screenshot_119.png?raw=true)  
+- at the end set the same **filters**, based on the tags, for every board/list you have  
+easy to observe a workload  
 
 #### Connection and synchronization 
 [⇑ back to Contents](#Сontents)     
@@ -108,9 +111,11 @@ applied half-free **coding streams for** (i.e. by debugging)
 etc. - fot other there is no concrete setup, it's rather an approach  
 ...
 - app integrations and cross-links 
-![image](https://github.com/hadabr/assets/blob/master/working-enviroment-setup/Screenshot_111.png?raw=true)  
+![image](https://github.com/hadabr/assets/blob/master/working-enviroment-setup/ipugkhjklk.png?raw=true)  
 **link** version control software with task management - every commit should have a link (i.e. comment) to corresponded task and vice versa  
 **calendar** is set to fetch tasks for a contributor  
+
+![image](https://github.com/hadabr/assets/blob/master/working-enviroment-setup/Screenshot_105.png?raw=true)  
 and calendars are set for a supervisor to control **time workload** and **rewards**  
 - use system of notifications about ```commits```, ```tasks```, ```tests```, ```news```  
 ![image](https://github.com/hadabr/assets/blob/master/working-enviroment-setup/Screenshot_112.png?raw=true) 
