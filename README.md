@@ -17,7 +17,7 @@ Checklist. Best practices
 [UI/UX](#UI/UX)  
 [Assets and media files](#Appearance) 
 ##### Security  
-[Team-pritocols](#team-protocols)  
+[Team-protocols](#team-protocols)  
 [Client-side](#client-side)  
 [Server-side](#server-side)   
 ... 
@@ -111,11 +111,10 @@ applied half-free **coding streams for** (i.e. by debugging)
 etc. - fot other there is no concrete setup, it's rather an approach  
 ...
 - app integrations and cross-links 
-![image](https://github.com/hadabr/assets/blob/master/working-enviroment-setup/ipugkhjklk.png?raw=true)  
 **link** version control software with task management - every commit should have a link (i.e. comment) to corresponded task and vice versa  
 **calendar** is set to fetch tasks for a contributor  
 
-![image](https://github.com/hadabr/assets/blob/master/working-enviroment-setup/Screenshot_105.png?raw=true)  
+![image](https://github.com/hadabr/assets/blob/master/working-enviroment-setup/ipugkhjklk.png?raw=true)    
 and calendars are set for a supervisor to control **time workload** and **rewards**  
 - use system of notifications about ```commits```, ```tasks```, ```tests```, ```news```  
 ![image](https://github.com/hadabr/assets/blob/master/working-enviroment-setup/Screenshot_112.png?raw=true) 
@@ -163,10 +162,12 @@ and calendars are set for a supervisor to control **time workload** and **reward
 ### Assets and media files  
 [⇑ back to Contents](#Сontents)  
 
-## Deployment
-### Version control management  
+## Security  
+### Team-protocols  
 [⇑ back to Contents](#Сontents)  
-### Computing resources and storage   
+### Client-side  
+[⇑ back to Contents](#Сontents)  
+### Server-side  
 [⇑ back to Contents](#Сontents)  
 
 ## Intelectual resources  
@@ -177,6 +178,11 @@ and calendars are set for a supervisor to control **time workload** and **reward
 ### Disclaymer   
 [⇑ back to Contents](#Сontents)  
    
+## Deployment
+### Version control management  
+[⇑ back to Contents](#Сontents)  
+### Computing resources and storage   
+[⇑ back to Contents](#Сontents)  
 
 ## Marketing
 [⇑ back to Contents](#Сontents)  
