@@ -32,7 +32,7 @@ __
 
 ## Project management
 ### Task management
-[⇑ back to Contents](#Сontents)
+[⇑ back to Contents](#Сontents)  
 ```Tool:``` [*Trello, quire, Asana or Jira etc.*]  
 ```Pattern:``` **Kanban-based pattern**  
 ```Guidelines:```   
@@ -89,7 +89,7 @@ non-tagged tasks - you can consider it like "general"
 - at the end set the same **filters**, based on your tags, for every board/list you have  
 
 #### Connection and synchronization 
-[⇑ back to Contents](#Сontents)  
+[⇑ back to Contents](#Сontents)     
 🔗 The efficient enviroment is set for **continuous user-friendly** self- and external ```forecast```, ```control```, ```analyse```  
 Steps to reach it:
 - simplified communication in a team
@@ -106,27 +106,27 @@ set calendar to fecth tasks
 ![image](https://github.com/hadabr/assets/blob/master/working-enviroment-setup/Screenshot_112.png?raw=true) 
 
 #### Time management
-[⇑ back to Contents](#Сontents)
+[⇑ back to Contents](#Сontents)   
 ```Tool:``` time tracker, i.e. **Toggl**  
 ```Pattern:``` **Pomodoro** 
 
 ## Development and testing
 ### App architecture
-[⇑ back to Contents](#Сontents) 
-```Pattern:``` **Modular all-to-one architecture** 
+[⇑ back to Contents](#Сontents)  
+```Pattern:``` **Modular all-to-one architecture**  
 
 ### QA  
 [⇑ back to Contents](#Сontents)  
 ### JS  
-[⇑ back to Contents](#Сontents)
+[⇑ back to Contents](#Сontents)  
 ```Concept:``` **Event performance**  
 - Control event bubbling and event target precision  
 - Debouncing over Throttling over nothing  
 
 ### Appearance   
-[⇑ back to Contents](#Сontents)
+[⇑ back to Contents](#Сontents)  
 ```Concept:``` **SCSS over CSS**  
-```Pattern:``` **SCSS all-to-one**  
+```Pattern:``` **SCSS all-to-one modules**  
 ```Concept:``` **Grid of grids**  
 ```Concept:``` **BEM**  
 ```Concept:``` **Responsive grid**  
@@ -134,22 +134,22 @@ set calendar to fecth tasks
 ```Concept:``` **Flex-to-flex**  
 
 ### APIs  
-[⇑ back to Contents](#Сontents)
+[⇑ back to Contents](#Сontents)  
 ### Database  
-[⇑ back to Contents](#Сontents)
+[⇑ back to Contents](#Сontents)   
 ## Design and prototyping  
 ### Branding  
-[⇑ back to Contents](#Сontents)
+[⇑ back to Contents](#Сontents)    
 ### UI/UX  
-[⇑ back to Contents](#Сontents)
+[⇑ back to Contents](#Сontents)  
 ### Assets and media files  
-[⇑ back to Contents](#Сontents)
+[⇑ back to Contents](#Сontents)  
 
 ## Deployment
 ### Version control management  
-[⇑ back to Contents](#Сontents) 
+[⇑ back to Contents](#Сontents)  
 ### Computing resources and storage   
-[⇑ back to Contents](#Сontents) 
+[⇑ back to Contents](#Сontents)  
 
 ## Intelectual resources  
 ### License  
@@ -161,7 +161,7 @@ set calendar to fecth tasks
    
 
 ## Marketing
-[⇑ back to Contents](#Сontents)
+[⇑ back to Contents](#Сontents)  
 
 
 ###### before start:
