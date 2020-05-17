@@ -145,6 +145,7 @@ together with TO-DOs &nbsp;⇒&nbsp; In process &nbsp;⇒&nbsp; Completed is the
 - Control event bubbling and layout reflow  
 [About](https://gist.github.com/paulirish/5d52fb081b3570c81e3a)    
 - Debouncing over ```requestAnimationFrame()``` over Throttling over nothing  
+https://www.html5rocks.com/en/tutorials/speed/animations/
 
 ### Appearance   
 [⇑ back to Contents](#Сontents)  
