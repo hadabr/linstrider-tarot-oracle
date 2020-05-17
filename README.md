@@ -122,6 +122,7 @@ and calendars are set for a supervisor to control **time workload** and **reward
 ### App architecture
 [⇑ back to Contents](#Сontents)  
 ```Pattern:``` **Modular all-to-one architecture**  
+```Concept:``` **Split-to-branches** 
 
 ### QA  
 [⇑ back to Contents](#Сontents)  
