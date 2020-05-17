@@ -94,10 +94,10 @@ easy to observe a workload
 
 #### Connection and synchronization 
 [⇑ back to Contents](#Сontents)     
-- simplified communication in a team  
+- **simplified** communication in a team  
 all-in-one (talk+inbox+chat) tools exceed other 
-clearly **divide** and don't mix up enviroments for code, conversations, task management (i.e., it's up to a team to use a strict or cozy PM style, but for both better no chats on github, no commits in messenger) etc. 
-for **code sharing** we have Git  
+it's up to a team to use a strict or cozy PM style, but **don't mix up** enviroments for code, conversations, task management (i.e., better no chats on github, no commits in messenger etc.)  
+for **code sharing** there is github    
 - **reduced** communications' **length** and **frequency** - DRY is to use here  
 dynamic, version controlled **documentation** over everything  
 **screen sharing** over chatting  
@@ -111,6 +111,7 @@ etc. - fot other there is no concrete setup, it's rather an approach
 ![image](https://github.com/hadabr/assets/blob/master/working-enviroment-setup/ipugkhjklk.png?raw=true)    
 and calendars are set for a supervisor to control **time workload** and **rewards**  
 - use system of notifications about ```commits```, ```tasks```, ```tests```, ```news```  
+
 ![image](https://github.com/hadabr/assets/blob/master/working-enviroment-setup/Screenshot_112.png?raw=true) 
 
 #### Time management
