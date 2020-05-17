@@ -36,7 +36,7 @@ __
 ```Tool:``` [*Trello, quire, Asana or Jira etc.*]  
 ```Pattern:``` **Kanban-based pattern**  
 ```Guidelines:```   
-It's similar to **a conveyor with a drum** omitting conveyor's boredom and preventing frustrations through clearness what, how and when is doing, simplicity to observe and participate in it through **visualization**, **interaction**, **partition** and **synchronization**  
+It's **a conveyor with a drum** omitting conveyor's boredom and preventing frustrations through clearness what, how and when is doing, simplicity to observe and participate in it through **visualization**, **interaction**, **partition** and **synchronization**  
 - main workflow is split into ```ideas```, ```tasks```, ```issues``` and ```blocked``` boards by default; also, ```common``` list  
  
 ![image](https://github.com/hadabr/assets/blob/master/working-enviroment-setup/Screenshot_102.png?raw=true)
