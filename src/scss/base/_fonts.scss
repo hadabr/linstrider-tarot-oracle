@@ -76,7 +76,11 @@ text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
 ul.main .mc p {
   font-size: 1.8rem;
   color: rgb(255, 255, 255);
-}   
+}
+.pseudo.date {
+  color: #FFFFFF;
+  text-shadow: 1px 1px 1px rgba(159, 153, 169, 0.1);
+}
 // -------------------------------
 // ------- sidebar left ----------
 aside.left {
