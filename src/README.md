@@ -4,7 +4,7 @@
 
 #### Our TEAM  🚀
 
-- [Erika DelaRosa](https://github.com/ErikaDelaRosa)
+- [Erika De la Rosa](https://github.com/ErikaDelaRosa)
 - [Irena Popova](https://github.com/irenapopova)
 - [Alex Dovghii](https://github.com/hadabr)
 
