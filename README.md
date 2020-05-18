@@ -97,7 +97,8 @@ easy to observe a workload
 #### Connection and synchronization 
 [⇑ back to Contents](#Сontents)     
 - **simplified** communication in a team  
-all-in-one (talk+inbox+chat) tools exceed other 
+all-in-one (talk+inbox+chat) tools exceed other  
+[Discord || Slack](https://www.elegantthemes.com/blog/resources/is-discord-the-free-slack-alternative-for-your-growing-team)  
 it's up to a team to use a strict or cozy PM style, but **don't mix up** enviroments for code, conversations, task management (i.e., better no chats on github, no commits in messenger etc.)  
 for **code sharing** there is github    
 - **reduced** communications' **length** and **frequency** - DRY is to use here  
