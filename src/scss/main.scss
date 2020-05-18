@@ -15,13 +15,13 @@
 
 // 4. UI
 // _header_
-@import "./ui/header_navigation";
+@import "./UI/header_navigation";
 // _sidebars_
-@import "./ui/sidebar_left", "./ui/sidebar_right";
+@import "./UI/sidebar_left", "./ui/sidebar_right";
 // _main_
-@import "./ui/content_navigation";
+@import "./UI/content_navigation";
 // _footer_s
-@import "./ui/pagination";
+@import "./UI/pagination";
 
 // 5. Content
 @import "./content/articles", "./content/posts", "./content/comments", "./content/built_in_ads";

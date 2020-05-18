@@ -24,6 +24,7 @@ body {
 // -------- common rules ---------
 * {
   font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
 }
 @font-face {
   font-family: 'SarsaparillaNF';
@@ -51,6 +52,31 @@ a:active{
 header {
 
 }
+.title .main {
+font-size: 3.5em;
+font-weight: 600;
+color: #443C39;
+text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.title .subtitle {
+  letter-spacing: 0.109em;
+  font-size: 1.125em;
+  font-weight: 600;
+  color: #443C39;
+  }  
+
+ul.main p {
+  font-size: 1.875rem;
+font-weight: 600;
+color: #F7F5F1;
+opacity: 0.9;
+text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+ul.main .mc p {
+  font-size: 1.8rem;
+  color: rgb(255, 255, 255);
+}   
 // -------------------------------
 // ------- sidebar left ----------
 aside.left {

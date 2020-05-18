@@ -21,27 +21,181 @@ $mediaQ: only screen #{$filename};
 
     // ---------- :root --------------
     body {
-        $grid-template-columns: side 1 main 2 side 1;
+        $grid-template-columns: side 1 main 2.8 side 1;
         $grid-template-rows: head 1 main 2 foot 1;
         @include grid($grid-template-columns, $grid-template-rows);
     }
 
     // -------------------------------    
     // ---------- header -------------
+    $header-bg-width: 25.6875em;
+    .pseudo.header {
+        $grid-column: full;
+        $grid-row: head 1;
+        @include grid-item($grid-column, $grid-row);
+        height: 2.1em;
+        width: 100%;
+    }
     header {
         $grid-column: main 1;
         $grid-row: head 1;
         @include grid-item($grid-column, $grid-row);
-        $flex-items: center top row;
-        @include flex($flex-items);
+        $grid-template-columns: side 1 main 1 main 1 main 1;
+        $grid-template-rows: head .01 head .5 main 1 main 1;
+        @include grid($grid-template-columns, $grid-template-rows);
+        .wrapper.hand {
+            $grid-column: side 1 to main 1;
+            $grid-row: main 1 to main 2;
+            @include grid-item($grid-column, $grid-row);
+            $flex-items: center center;
+            @include flex($flex-items);
+        }
+        .hand img {
+            width: $header-bg-width/2.5;
+        }
+    }
+    .emblem {
+        $grid-column: side 1 to main 1;
+        $grid-row: head 2 to main 2;
+        @include grid-item($grid-column, $grid-row);
+        $grid-template-columns: main 1;
+        $grid-template-rows: head .5 main 1;
+        @include grid($grid-template-columns, $grid-template-rows);
+        > .wrapper {
+            $grid-column: main 1;
+            $grid-row: main 1;
+            @include grid-item($grid-column, $grid-row);
+        }
+        .wrapper.snake {
+            $flex-items: center center;
+            @include flex($flex-items);
+        }
+        .snake img {
+            width: $header-bg-width / 2;
+        }
+        .wrapper.aquarell {
+            $grid-column: main 1;
+            $grid-row: head 1 to main 1;
+            @include grid-item($grid-column, $grid-row);
+            margin-top: 4em;
+            $flex-items: top right;
+            @include flex($flex-items);
+        }
+        .aquarell img {
+            width: $header-bg-width/3;
+        }
+    }
+    nav {
+        $grid-column: main 1 to main 3;
+        $grid-row: main 1 to main 2;
+        @include grid-item($grid-column, $grid-row);
+        $grid-template-columns: main 1;
+        $grid-template-rows: main .5 main 1;
+        @include grid($grid-template-columns, $grid-template-rows);
+        width: $header-bg-width*1.9;
+        ul.main {
+            $grid-template-columns: main 1;
+            $grid-template-rows: main 1;
+            @include grid($grid-template-columns, $grid-template-rows);
+            $grid-column: full;
+            $grid-row: full;
+            @include grid-item($grid-column, $grid-row);
+            li {
+                $grid-column: full;
+                $grid-row: full;
+                @include grid-item($grid-column, $grid-row);
+                $grid-template-columns: main 1;
+                $grid-template-rows: main 1;
+                @include grid($grid-template-columns, $grid-template-rows);
+                width: $header-bg-width*.9;
+            }
+            li p {
+                $grid-column: full;
+                $grid-row: full;
+                @include grid-item($grid-column, $grid-row);
+                $flex-items: top left;
+                @include flex($flex-items);
+                padding-top: .75em;
+                padding-left: 3em;
+            }
+            li img {
+                $grid-column: full;
+                $grid-row: full;
+                @include grid-item($grid-column, $grid-row);
+                width: 100%;
+            }
+            li.mc p {
+                &:nth-child(2) {
+                    padding-top: 0.3em;
+                    padding-left: 2.5em;
+                }
+                &:nth-child(3) {
+                    padding-top: 1.2em;
+                    padding-left: 3.5em;
+                }
+            }
+            li.spr {
+                margin-left: $header-bg-width/1.6;
+            }
+            li.rul {
+                margin-left: $header-bg-width + $header-bg-width/4.1;
+                p {
+                    padding-left: 3.7em;  
+                }
+            } 
+        }
+        ul.astro {
+            $grid-column: full;
+            $grid-row: main 2;
+            @include grid-item($grid-column, $grid-row);
+            $grid-template-columns: main 1;
+                $grid-template-rows: main 1;
+                @include grid($grid-template-columns, $grid-template-rows);
+                li {
+                    $grid-column: full;
+                    $grid-row: full;
+                    @include grid-item($grid-column, $grid-row);
+                    $flex-items: top left column;
+                    @include flex($flex-items); 
+                }
+                padding-left: $header-bg-width/7;
+        }
+        .title {
+            $grid-column: full;
+            $grid-row: full;
+            @include grid-item($grid-column, $grid-row);
+            $flex-items: top right column;
+            @include flex($flex-items);
+            padding-top: $header-bg-width/4.5;
+        }
+    }
+    .moon-n-sun img{
+        width: $header-bg-width/9;
+        margin-left: $header-bg-width/7.5;  
+    }
+    .pseudo.date p {
+        $flex-items: center left;
+        @include flex($flex-items); 
     }
     // -------------------------------
     // ------- sidebar left ----------
-    aside.left {}
+    aside.left {
+        $grid-column: side 1;
+        $grid-row: full;
+        @include grid-item($grid-column, $grid-row);
+        $flex-items: center center column;
+        @include flex($flex-items);
+    }
 
     // -------------------------------
     // ------ sidebar right ----------
-    aside.right {}
+    aside.right {
+        $grid-column: side 2;
+        $grid-row: full;
+        @include grid-item($grid-column, $grid-row);
+        $flex-items: center center column;
+        @include flex($flex-items);
+    }
 
     // -------------------------------
     main {
@@ -53,19 +207,53 @@ $mediaQ: only screen #{$filename};
     }
     // ------- main > header ---------
     main>.header {}
-
     // -------------------------------
     // ------- main > content -----------
-    main>.content {}
-
-
+    main>.content {
+        $grid-template-columns: side 1 main 1;
+        $grid-template-rows: main 1;
+        @include grid($grid-template-columns, $grid-template-rows);
+    }
+    $cards-deck-height:27em;
+    // pseudo deck
+    .deck.base {
+        $grid-column: side 1;
+        $grid-row: main 1;
+        @include grid-item($grid-column, $grid-row);
+        $flex-items: bottom left;
+            @include flex($flex-items);
+    }
+    img.deck {
+        height:$cards-deck-height;
+    }
+    //right
+    .deck.right {
+        $grid-column: main 1;
+        $grid-row: main 1;
+        @include grid-item($grid-column, $grid-row);
+        $flex-items: center right;
+        @include flex($flex-items);
+    }
+    img.right {
+        height:$cards-deck-height - 6;
+    }
     // -------------------------------
     // ------- main > footer ---------
     main>.footer {}
 
     // -------------------------------
     // ---------- footer -------------
-    footer {}
+    footer {
+        $grid-column: main 1;
+        $grid-row: foot 1;
+        @include grid-item($grid-column, $grid-row);
+        $flex-items: bottom center;
+        @include flex($flex-items);
+        img {
+            height: 7.5em;
+        }
+        
+    }
 
     // -------------------------------
 

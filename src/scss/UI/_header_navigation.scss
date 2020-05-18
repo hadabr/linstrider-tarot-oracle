@@ -28,6 +28,9 @@ body {
 header {
 
 }
+.pseudo.header {
+    background-color: #527486;
+}
 // -------------------------------
 // ------- sidebar left ----------
 aside.left {
@@ -45,8 +48,8 @@ main>.header {}
 
 // -------------------------------
 // ------- main > content -----------
-main>.content {}
-
+main>.content {
+}
 
 // -------------------------------
 // ------- main > footer ---------

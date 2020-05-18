@@ -14,43 +14,102 @@
   <!-- ------------------------------- -->
   <!-- ------------ :root ------------ -->
   <body>
-    <div class="loader container">
-      <img class="loader item" src="./assets/main/bg-loader.png"/>
-    </div>
     <!-- ------------------------------- -->
     <!-- ---------- header ------------- -->
-    <header></header>
+    <div class="pseudo header"></div>
+    <header>
+      <figure class="emblem">
+        <div class="wrapper snake">
+          <img src="./assets/main/header-emblem-bg.png" />
+        </div>
+        <div class="wrapper aquarell">
+          <img src="./assets/main/aqua-aprticle-01.png" />
+        </div>
+      </figure>
+      <div class="wrapper hand">
+        <img src="./assets/main/header_emblem.png" />
+      </div>
+      <nav>
+        <ul class="main">
+          <li class="mc">
+            <img src="./assets/main/header-mc-bg.png" />
+            <p>Moon</p>
+            <p>Calendar</p>
+          </li>
+          <li class="spr"><img src="./assets/main/header-sprd-bg.png" />
+            <p>Spreads</p></li>
+            <li class="rul"><img src="./assets/main/header-about-bg.png" />
+              <p>Rules</p></li>
+        </ul>
+        <ul class="astro">
+          <li class="background"><img src="./assets/main/header-astr-bg.png" /></li>
+          <li class="moon-n-sun"><img src="./assets/main/astro-sun.png" /></li>
+          <li class="pseudo date">Mirdas 2981'23</li>
+        </ul>
+        <div class="title">
+          <p class="main">Mysticus</p>
+          <p class="subtitle">Tarot personal oracle</p>
+        </div>
+      </nav>
+    </header>
     <!-- ------------------------------- -->
     <!-- ------- sidebar left ---------- -->
-    <aside class="left"></aside>
+    <aside class="left">
+      <div class="background"></div>
+      <ul class="profile">
+        <li class="photo"></li>
+        <li class="nickname"></li>
+      </ul>
+    </aside>
     <!-- ------------------------------- -->
     <!-- ------ sidebar right ---------- -->
-    <aside class="right"></aside>
+    <aside class="right">
+      <ul class="forecasts">
+        <li class="title">Forecasts</li>
+        <li></li>
+        <li class="empty"></li>
+      </ul>
+    </aside>
     <!-- ------------------------------- -->
     <main>
       <!-- ------- main > header --------- -->
       <div class="header">
-        <figure class="moon-n-sun">
-
-        </figure>
-        <nav>
-          <ul>
+        <li>refresh</li>
+        <ul>
+          <ul class="hamburger menu">
             <li></li>
             <li></li>
             <li></li>
           </ul>
-        </nav>
+          <li>save</li>
+        </ul>
       </div>
       <!-- ------------------------------- -->
       <!-- ------- main > content -------- -->
       <div class="content">
-        <figure class="base-deck">
-<img class="basement" />
-<img class="middle" />
-<img class="above" /> 
+        <!--         <figure class="deck base">
+          <div class="wrapper"><img class="deck one" src="./assets/main/cards-back.png" /></div>
+          <div class="wrapper"><img class="deck two" src="./assets/main/cards-back.png" /></div>
+          <div class="wrapper"><img class="deck three" src="./assets/main/cards-back.png" /></div>
+          <div class="wrapper"><img class="deck four" src="./assets/main/cards-back.png" /></div>
+          <div class="wrapper"><img class="deck five" src="./assets/main/cards-back.png" /></div>
         </figure>
-        <container class="cards">
-        </container>
+        <figure class="deck right">
+          <div class="wrapper"><img class="right left" src="./assets/main/cards-back.png" /></div>
+          <div class="wrapper"><img class="right middle" src="./assets/main/cards-back.png" /></div>
+          <div class="wrapper"><img class="right last" src="./assets/main/cards-back.png" />
+        </figure> -->
+        <figure class="deck base">
+          <div class="wrapper">
+            <img class="deck one" src="./assets/main/deck-base.png" />
+          </div>
+        </figure>
+        <figure class="deck right">
+          <div class="wrapper">
+            <img class="right left" src="./assets/main/deck-right.png" />
+          </div>
+        </figure>
+        <container class="cards"> </container>
       </div>
       <!-- ------------------------------- -->
       <!-- ------- main > footer --------- -->
@@ -58,7 +117,12 @@
       <!-- ------------------------------- -->
     </main>
     <!-- ---------- footer ------------- -->
-    <footer></footer>
+    <footer>
+      <img class="" src="./assets/main/footer.png" />
+    </footer>
+    <!--     <div class="loader container">
+      <img class="loader item" src="./assets/main/bg-loader.png" />
+    </div> -->
     <!-- ------------------------------- -->
     <script src="./scripts/index.js"></script>
   </body>

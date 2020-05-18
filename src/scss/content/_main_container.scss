@@ -45,7 +45,10 @@ main>.header {}
 
 // -------------------------------
 // ------- main > content -----------
-main>.content {}
+main>.content {
+    background: url(../../assets/main/aqua-bg-main.jpg) no-repeat;
+    background-size: 60%;
+}
 
 
 // -------------------------------
