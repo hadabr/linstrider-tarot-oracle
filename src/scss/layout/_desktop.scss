@@ -47,11 +47,12 @@ $mediaQ: only screen #{$filename};
             $grid-column: side 1 to main 1;
             $grid-row: main 1 to main 2;
             @include grid-item($grid-column, $grid-row);
-            $flex-items: center center;
+            $flex-items: top left;
             @include flex($flex-items);
+            margin-left: 4em;
         }
         .hand img {
-            width: $header-bg-width/2.5;
+            width: $header-bg-width/1.9;
         }
     }
     .emblem {
@@ -67,7 +68,7 @@ $mediaQ: only screen #{$filename};
             @include grid-item($grid-column, $grid-row);
         }
         .wrapper.snake {
-            $flex-items: center center;
+            $flex-items: top center;
             @include flex($flex-items);
         }
         .snake img {
@@ -173,9 +174,11 @@ $mediaQ: only screen #{$filename};
         width: $header-bg-width/9;
         margin-left: $header-bg-width/7.5;  
     }
-    .pseudo.date p {
-        $flex-items: center left;
+    .pseudo.date {
+        $flex-items: top left;
         @include flex($flex-items); 
+        margin-top: 1em;
+        margin-left: 7em;
     }
     // -------------------------------
     // ------- sidebar left ----------
@@ -252,6 +255,7 @@ $mediaQ: only screen #{$filename};
         img {
             height: 7.5em;
         }
+        margin-bottom: 0em;
         
     }
 
